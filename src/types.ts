@@ -79,28 +79,6 @@ export interface SiteConfig {
   };
 }
 
-export interface ConsultationOption {
-  id: string;
-  title: string;
-  topic: string;
-  duration: string;
-  price: string;
-  rawPrice: number;
-  description: string;
-  features: string[];
-  isPopular?: boolean;
-  format: string;
-}
-
-export interface ConsultationBooking {
-  optionId: string;
-  date: string;
-  timeSlot: string;
-  userName: string;
-  userPhone: string;
-  notes?: string;
-}
-
 export interface NewsletterSubscriber {
   id: string;
   email: string;

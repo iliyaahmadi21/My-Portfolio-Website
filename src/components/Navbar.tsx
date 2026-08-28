@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mic, BookOpen, GraduationCap, FileText, Mail, Sparkles, Menu, X, LayoutDashboard, Edit3, Calendar } from 'lucide-react';
+import { Mic, BookOpen, GraduationCap, FileText, Mail, Sparkles, Menu, X, LayoutDashboard, Edit3 } from 'lucide-react';
 import { SiteConfig } from '../types';
 
 interface NavbarProps {
@@ -27,7 +27,6 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   const navLinks = [
     { id: 'hero', label: 'صفحه اصلی', icon: Sparkles },
-    { id: 'consultation', label: 'مشاوره اختصاصی', icon: Calendar },
     { id: 'podcast', label: 'پادکست', icon: Mic },
     { id: 'courses', label: 'دوره‌ها', icon: GraduationCap },
     { id: 'articles', label: 'مقالات', icon: FileText },

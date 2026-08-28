@@ -7,7 +7,6 @@ import { PodcastPlayerWidget } from './components/PodcastPlayerWidget';
 import { CoursesGrid } from './components/CoursesGrid';
 import { ArticlesSection } from './components/ArticlesSection';
 import { AboutSection } from './components/AboutSection';
-import { ConsultationSection } from './components/ConsultationSection';
 import { NewsletterBanner } from './components/NewsletterBanner';
 import { AdminCMS } from './components/AdminCMS';
 import { PersistentAudioPlayer } from './components/PersistentAudioPlayer';
@@ -136,9 +135,6 @@ export default function App() {
               isEditMode={isEditMode}
               onUpdateConfig={handleUpdateConfig}
             />
-
-            {/* Section: Consultation Booking */}
-            <ConsultationSection />
 
             {/* Section 3: Podcast Player */}
             <PodcastPlayerWidget
