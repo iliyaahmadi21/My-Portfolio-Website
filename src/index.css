@@ -12,10 +12,14 @@
   }
 
   body {
-    font-family: 'Vazirmatn', 'IRANSans', system-ui, -apple-system, sans-serif;
+    font-family: 'IRANSans', 'IRANSansX', 'Vazirmatn', system-ui, -apple-system, sans-serif;
     background-color: var(--bg-swan-wing);
     color: var(--royal-blue);
     overflow-x: hidden;
+  }
+
+  button, input, textarea, select {
+    font-family: 'IRANSans', 'IRANSansX', 'Vazirmatn', system-ui, -apple-system, sans-serif;
   }
 }
 

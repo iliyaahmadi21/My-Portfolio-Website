@@ -89,6 +89,11 @@ export const Footer: React.FC<FooterProps> = ({ config, onNavigate }) => {
                 </button>
               </li>
               <li>
+                <button onClick={() => onNavigate('consultation')} className="hover:text-white transition">
+                  رزرو مشاوره اختصاصی
+                </button>
+              </li>
+              <li>
                 <button onClick={() => onNavigate('podcast')} className="hover:text-white transition">
                   پادکست ذهن و کلام
                 </button>
